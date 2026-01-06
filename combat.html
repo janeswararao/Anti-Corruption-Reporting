@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/47/Logo_del_ITESM.svg" type="image/x-icon">
+    <title>Anticorrupcion</title>  
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <a class="active">Fighting corruption</a>
+        <a href="./report.html">Reports</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNavBar()">
+            <img src="https://javier.rodriguez.org.mx/itesm/2014/simbolo-tec-white.png" height="25px">
+        </a>
+      </div>
+      <div class="image-text-container">
+        <img src="./src/sayno.jpg">
+        <div id="big-top" class="centered-image-text">COMBAT</div>
+    </div>
+    <div class="combat-top-container">
+        <p class="combat-top-text">
+            Corruption is a threat to sustainable development and fair business practices.
+            Organizations that fight corruption exist all over the world.
+        </p>
+    </div>
+    
+    <section class="orgs-container">
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cbi_logo.svg/500px-Cbi_logo.svg.png?20220905091820">
+            <p>
+                This work is in the public domain in India under the Indian Copyright Act, 1957. Government works, official reports, and other eligible works become free from copyright after 60 years from publication, or are otherwise ineligible for copyright. Text of laws and judicial decisions are not protected by copyright."
+            </p>
+            <button onclick="window.open('https://commons.wikimedia.org/wiki/File%3ACbi_logo.svg?utm_source=chatgpt.com', '_blank')">Learn more</button>
+        </div>
+        <div class="box">
+            <img src="https://vajiramandravi.com/current-affairs/wp-content/uploads/2025/03/what_is_the_right_to_information_rti_act_2005.jpg.webp">
+            <p>
+                Right to Information (RTI) is a powerful law that allows Indian citizens to seek information from government authorities.
+It promotes transparency by making public officials accountable for their actions.
+Through RTI, people can expose corruption, delays, and misuse of public funds.
+It empowers citizens to actively participate in democratic governance.
+            </p>
+            <button onclick="window.open('https://en.wikipedia.org/wiki/Right_to_Information_Act,_2005', '_blank')">Learn more</button>
+            
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/US-InternationalTradeAdministration-Seal.svg/1200px-US-InternationalTradeAdministration-Seal.svg.png">
+            <p>
+                The Foreign Corrupt Practices Act (FCPA, the Act) is a United States law that prohibits U.S. 
+                firms and individuals from paying bribes to foreign officials to further business deals.
+                Both the Securities and Exchange Commission (SEC) and the Department of Justice (DOJ) 
+                are responsible for enforcing the FCPA.
+            </p>
+            <button onclick="window.open('https://www.trade.gov/us-foreign-corrupt-practices-act', '_blank')">Learn more</button>
+        </div>
+    </section>
+    <div class="slideshow-top-container">
+        <div class="slideshow-question">
+            What can WE do as individuals?
+        </div>
+        <div class="slideshow-buttons">
+            <button onclick="slideshowChanger(0)">1</button>
+            <button onclick="slideshowChanger(1)">2</button>
+            <button onclick="slideshowChanger(2)">3</button>
+            <button onclick="slideshowChanger(3)">4</button>
+        </div>
+    </div>
+    
+    <div class="slideshow">
+        <img id="slideshow-image" src="./src/rights.jpg" alt="Press on the numbers to change slide.">
+        <div class="slideshow-text-container">
+            <div id="slideshow-header">Claim our rights</div>
+            <div id="slideshow-body">
+                Be aware that there are multiple types when it comes to corruption. 
+                Indian anti-corruption experts have pointed out: “There is no way 
+                that this country can change if we believe that corruption is only about bribing a police officer. 
+                For many Indians, that is the only type of corruption.”
+            </div>
+        </div>
+    </div>
+    <div class="bottom-button">
+        <a href="./report.html"><button>Go make a report</button></a>
+   </div>
+</body>
+</html>
